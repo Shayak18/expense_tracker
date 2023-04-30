@@ -23,8 +23,8 @@ app.use("/api/v1",routes)
 //     res.sendFile(path.join(__dirname, "./frontend/build/index.html"));
 // });
 app.get(
-    "/",()=>{
-        console.log("API running");
+    "/",(req,res)=>{
+        res.send("API running");
     }
 )
 
