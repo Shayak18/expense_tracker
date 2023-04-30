@@ -5,8 +5,10 @@
   "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js",
-    "build": "npm install"
+    "build": "npm install",
+    "start": "node app.js"
   },
+
   "author": "",
   "license": "ISC",
   "dependencies": {
